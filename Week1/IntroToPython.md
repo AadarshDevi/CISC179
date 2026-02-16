@@ -9,6 +9,10 @@
 ## Answers
 1. Table of **Programming Languages** and their type
 
+2. 
+
 3. Computer has Python3 installed
 <img width="1766" height="952" alt="image" src="PythonInstall.png" />
 
+4. Image for having Github Repo ready for class
+<img width="2559" height="1535" alt="image" src="GithubRepoReady.png" />
