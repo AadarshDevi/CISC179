@@ -10,6 +10,5 @@
 1. Table of **Programming Languages** and their type
 
 3. Computer has Python3 installed
-
-!<img src="PythonInstall.png>
+<img width="1766" height="952" alt="image" src="PythonInstall.png" />
 
