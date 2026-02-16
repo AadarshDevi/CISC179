@@ -8,3 +8,7 @@
 
 ## Answers
 1. Table of **Programming Languages** and their type
+
+3. Computer has Python3 installed
+<img width="1766" height="952" alt="image" src="https://github.com/user-attachments/assets/3315cc00-c41c-46bd-92e1-25d13f36872f" />
+
