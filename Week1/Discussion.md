@@ -2,7 +2,9 @@
 
 ## Questions
 **a.** Based on your reading, which statement surprised you?
+
 **b.** Which part of Python language you liked the most?
+
 **c.** Many sources assert that Python is the leading programming language globally, while others suggest it holds the second or third position. Given your research, how would you rate Python, and what are the reasons behind your assessment?
 
 ## Answers
