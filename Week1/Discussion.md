@@ -12,4 +12,4 @@
 
 **b.** In Python, I can write 1 line of code to get input and print it. In Java, C++ it takes more lines to do the same thing.
 
-**c.** I have been in an ecosystem of Java (Native Desktop Apps) and C++ (Arduino) so being able to do the same thing with less lines of code is amazing. I would put it as: Java > C++ > Python. ython can be used to write robots, make apps, games, but most of all, it is one of the best tools for Data Analysis and AI.
+**c.** I have been in an ecosystem of Java (Native Desktop Apps) and C++ (Arduino) so being able to do the same thing with less lines of code is amazing. I would put it as: Java > C++ > Python. Python can be used to write robots, make apps, games, but most of all, it is one of the best tools for Data Analysis and AI. Java and C++ are my native languages more than python, but Python will be very important as it is still evolving and getting faster. One day, it can do everything.
