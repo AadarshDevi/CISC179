@@ -7,12 +7,14 @@
 4. Take a screenshot that shows that the Github repository is all set up for this course.
 
 ## Answers
-1. Table of **Programming Languages** and their type
+1. Table of... I did not understand this question.
 
-2. 
+2. A real world exmple for where python is superior to compiled languages like C++, C:
+  1. Prototyping: Python's syntax is closer to english making it easier and faster to make prototypes to see if they work. In compiled languages, there would be more work to be done like memeory management, importing libraries, etc.
+  2. Simplicity: When sharing C/C++ code, there are not many people who will understand it. When sharing Python code, more people, non-programmers included have the ability to understand the code.
 
-3. Computer has Python3 installed
+4. Computer has Python3 installed
 <img width="1766" height="952" alt="image" src="PythonInstall.png" />
 
-4. Image for having Github Repo ready for class
+5. Image for having Github Repo ready for class
 <img width="2559" height="1535" alt="image" src="GithubRepoReady.png" />
