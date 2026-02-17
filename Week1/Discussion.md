@@ -7,5 +7,7 @@ c. Many sources assert that Python is the leading programming language globally,
 
 ## Answers
 a. From the reading, not much was surprising to me except that the main python is CPython, which is the official python type.
+
 b. In Python, I can write 1 line of code to get input and print it. In Java, C++ it takes more lines to do the same thing.
+
 c. I have been in an ecosystem of Java (Native Desktop Apps) and C++ (Arduino) so being able to do the same thing with less lines of code is amazing. I would put it as: Java > C++ > Python. ython can be used to write robots, make apps, games, but most of all, it is one of the best tools for Data Analysis and AI.
