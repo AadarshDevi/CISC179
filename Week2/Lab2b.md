@@ -1,5 +1,10 @@
 # Lab 2b: Python Literals
 
+## Basic Info
+- Author: Aadarsh Devi
+- Submission Date: Feb 2, 2026
+- Assignment: Lab 2b
+
 # Python Precedence
 
 Top to bottom from left to right.
@@ -196,3 +201,9 @@ Answer:
 ```
 
 Due to precision in programming/memeory thing, it is 11.23999... instead of 11.24.
+
+## What to Submit
+1. Python File(s): None
+2. Challenges:
+    1. Underestimating the complexity of operation precedence, without parenthesis, it was hard for me.
+    2. Trying to tell between a type and TypeError
