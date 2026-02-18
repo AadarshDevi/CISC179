@@ -33,7 +33,7 @@ Without, the o/p will be: 127.0.0.1 because I think sep="." means the values are
 2. A situation where `flush=False` would work is when we just want to get the output after all the process. calculations are done.
 
 ### 1e: Flushingwhen flush=False
-When any of the ***objects** have the '\n' new line escape sequence, the buffer will 
+When any of the ***objects** have the '\n' new line escape sequence, the buffer will be fushed. If end="\n" and/or any *objects have "\n" the the buffer will act like flush="True".
 
 ## What to Submit
 1. Python File(s): [Python File](Printing.py)
