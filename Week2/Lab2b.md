@@ -156,8 +156,8 @@ Use Exponent (Right --> Left), (Left --> Right from now on) Unary, Multiplicatio
 ## Answers
 
 1. Add exponent with a negative power (unary)
-
 ```
 12 ** +2 = 144
-
 ```
+
+2. 
