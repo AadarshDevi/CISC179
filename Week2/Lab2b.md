@@ -109,7 +109,7 @@ Answer: -2, 2, 512
 |     7    |   ✔️   | HelloWorld | HelloWorld |
 |     8    |   ✔️   | blablaba | blablaba |
 |     9    |   ❌   | 512 | 54 |
-|    10    |   ❌   | 14 | 14.0 | forgot int --> float
+|    10    |   ❌   | 14 | 14.0 |
 |    11    |   ✔️   | 1 | 1 |
 |    12    |   ❌   | -2, 2, 512 | 2 2 512 |
 
