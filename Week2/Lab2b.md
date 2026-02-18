@@ -195,4 +195,4 @@ Answer:
 11.239999999999998
 ```
 
-Due to precision in programming, it is 11.23999... instead of 11.24.
+Due to precision in programming/memeory thing, it is 11.23999... instead of 11.24.
