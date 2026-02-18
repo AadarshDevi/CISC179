@@ -1,5 +1,15 @@
 # Lab 2b: Python Literals
 
+# Python Precedence
+
+Top to bottom from left to right.
+```
+**
++/-ve
+* / % //
++ -
+```
+
 # 1. Literals
 
 ```python
@@ -42,6 +52,7 @@ Question 9:
 = 512
 
 Answer: 512
+---------------------
 
 Question 10:
 
@@ -56,4 +67,19 @@ Question 10:
 = 14
 
 Answer: 14
+---------------------
+
+Question 11:
+
+2 * 3 % 5
+= ((2 * 3) % 5)
+= (6 % 5)
+= 1
+
+Answer: 1
+---------------------
+
+Question 12:
+
+Answer: 
 ```
