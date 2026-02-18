@@ -141,11 +141,11 @@ type("False") # 7
 
 | Question | Result | My Answer | Python Answer |
 |:--------:|:------:|:---------:|:-------------:|
-|     1    |   ✔️   |    str    |  |
-|     2    |   ✔️   |    str    |  |
-|     3    |   ✔️   |   float   |  |
-|     4    |   ✔️   |    str    |  |
-|     5    |   ✔️   |    int    |  |
-|     6    |   ✔️   |    bool   |  |
-|     7    |   ❌   |    str    |  |
+|     1    |   ✔️   |    str    |      str      |
+|     2    |   ❌   |    str    |   TypeError   |
+|     3    |   ✔️   |   float   |     float     |
+|     4    |   ✔️   |    str    |      str      |
+|     5    |   ✔️   |    int    |      int      |
+|     6    |   ✔️   |    bool   |      bool     |
+|     7    |   ✔️   |    str    |      str      |
 
