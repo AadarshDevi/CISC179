@@ -40,5 +40,6 @@ When any of the ***objects** have the '\n' new line escape sequence, the buffer 
 2. Drawio Flowchart: Draw.io Flowchart
 3. Flowchart as Image: Draw.io Image
 4. Challenges:
-  1. a
+    1. Trying to understand something like print() has so much versitility.
+    2. Lot of experimenting needed to understand what this simepple method did.
 5. Video Explanation: Youtube Video
