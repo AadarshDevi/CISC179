@@ -25,7 +25,7 @@ print("All the world's a stage, \n" +
 "His acts being seven ages.")
 ```
 
-### 1d: No Coding
+### 1c: No Coding
 Without, the o/p will be: 127.0.0.1 because I think sep="." means the values are separated by "." instead of " ".
 
 ### 1d: Flushing
