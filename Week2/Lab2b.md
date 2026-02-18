@@ -159,16 +159,23 @@ Use Exponent (Right --> Left), (Left --> Right from now on) Unary, Multiplicatio
 ```
 12 ** -2 = 144.0
 ```
-2. Multiplication then Division
+2. Multiplication then Division on the exponent
 ```
--2 * -9 / 3 = 18 / 3 = 6.0
+12 ** -2 * -9 / -3
 ```
-3. 
+3. add integer division to base and mod it
 ```
+12 ** -2 * -9 / -3 // 4 % 9.5
 ```
-4. 
+4. now add a value and subtract a value it
 ```
+27.11 - 19.37 + 12 ** -2 * -9 / -3 // 4 % 9.5
 ```
-5.
+
+Now breakdown
 ```
+27.11 - 19.37 + 12 ** -2 * -9 / -3 // 4 % 9.5
+= 27.11 - 19.37 + 12 ** (-2 * -9 / -3 // 4 % 9.5)
+= 27.11 - 19.37 + (12 ** ((((-2 * -9) / -3) // 4) % 9.5))
+= 
 ```
