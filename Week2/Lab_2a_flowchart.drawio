@@ -1,0 +1,82 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="E95kM2Q6KlRAKFlEBwOL">
+    <mxGraphModel dx="1213" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-7" edge="1" parent="1" source="ZfAaDrVcBI7TmZbR73Oy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ZfAaDrVcBI7TmZbR73Oy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Read Lab" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-9" edge="1" parent="1" source="ZfAaDrVcBI7TmZbR73Oy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZfAaDrVcBI7TmZbR73Oy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="steamrolled 1a, 1b, and&amp;nbsp;1c" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-12" edge="1" parent="1" source="ZfAaDrVcBI7TmZbR73Oy-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZfAaDrVcBI7TmZbR73Oy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="got stuck on 1d and 1e" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-13" edge="1" parent="1" source="ZfAaDrVcBI7TmZbR73Oy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZfAaDrVcBI7TmZbR73Oy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1d: i knew what it did" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-15" edge="1" parent="1" source="ZfAaDrVcBI7TmZbR73Oy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZfAaDrVcBI7TmZbR73Oy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="didnt know different use cases of it." vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-19" edge="1" parent="1" source="ZfAaDrVcBI7TmZbR73Oy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZfAaDrVcBI7TmZbR73Oy-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="wrote something, hope its correct" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-18" edge="1" parent="1" source="ZfAaDrVcBI7TmZbR73Oy-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZfAaDrVcBI7TmZbR73Oy-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1e" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-21" edge="1" parent="1" source="ZfAaDrVcBI7TmZbR73Oy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZfAaDrVcBI7TmZbR73Oy-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="watched intro to python vid 3 times" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-23" edge="1" parent="1" source="ZfAaDrVcBI7TmZbR73Oy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZfAaDrVcBI7TmZbR73Oy-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-20" parent="1" style="whiteSpace=wrap;html=1;" value="experimented with example code" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-27" edge="1" parent="1" source="ZfAaDrVcBI7TmZbR73Oy-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZfAaDrVcBI7TmZbR73Oy-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-22" parent="1" style="whiteSpace=wrap;html=1;" value="&amp;nbsp;in pycharm and cmd" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-24" edge="1" parent="1" source="ZfAaDrVcBI7TmZbR73Oy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZfAaDrVcBI7TmZbR73Oy-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="1070" as="sourcePoint" />
+            <mxPoint x="470" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="had an idea, but didnt know if it was correct" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfAaDrVcBI7TmZbR73Oy-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="found my answer :)" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="700" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
