@@ -34,7 +34,6 @@ HelloWorld # 7
 blablaba # 8
 ```
 ```
-
 Question 9:
 
 2 * 3 ** 3
@@ -45,4 +44,9 @@ Question 9:
 Answer: 512
 
 Question 10:
+
+5 * 25 // 13 + 100 / 2 % 13 // 2
+= ((5 * 25) // 13) + 100 / 2 % 13 // 2
+
+
 ```
