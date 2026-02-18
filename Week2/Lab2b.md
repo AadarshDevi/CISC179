@@ -95,3 +95,20 @@ in (2 ** 3 ** 2), the exponents go from left to right
 
 Answer: -2, 2, 512
 ```
+
+## Results
+
+| Question | Result | My Answer | Python Answer |
+|:--------:|:---------:|:-------------:|
+| 1 | ❌ | 5 |  |
+| 2 | ✔️ | 2.5 |  |
+| 3 |  | 2 |  |
+| 4 |  | 6.0 |  |
+| 5 |  | True |  |
+| 6 |  | True |  |
+| 7 |  | HelloWorld |  |
+| 8 |  | blablaba |  |
+| 9 |  | 512 |  |
+| 10 |  | 14 |  |
+| 11 |  | 1 |  |
+| 12 |  | -2, 2, 512 |  |
