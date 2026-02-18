@@ -4,7 +4,7 @@
 
 Top to bottom from left to right.
 ```
-**          # only a group of these is right - left
+**          # only a group of this is right - left
 +/-ve
 * / % //
 + -
