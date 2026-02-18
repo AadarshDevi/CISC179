@@ -157,7 +157,18 @@ Use Exponent (Right --> Left), (Left --> Right from now on) Unary, Multiplicatio
 
 1. Add exponent with a negative power (unary)
 ```
-12 ** +2 = 144
+12 ** -2 = 144.0
 ```
-
-2. 
+2. Multiplication then Division
+```
+-2 * -9 / 3 = 18 / 3 = 6.0
+```
+3. 
+```
+```
+4. 
+```
+```
+5.
+```
+```
