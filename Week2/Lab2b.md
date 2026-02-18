@@ -191,7 +191,8 @@ Now breakdown
 print(27.11 - 19.37 + 12 ** 2 * -9 / -3 // 4 % 9.5)
 ```
 Answer:
-```
-7.739999999999998
+```python
+11.239999999999998
 ```
 
+Due to precision in programming, it is 11.23999... instead of 11.24.
