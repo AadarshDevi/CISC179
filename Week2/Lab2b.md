@@ -30,9 +30,7 @@ print((2 % -4), (2 % 4), (2 ** 3 ** 2))
 True
 True
 
-?
+"HelloWorld"
 blablaba
-2 * 9 = **512**
-
-
+2 * 9 = 512
 ```
