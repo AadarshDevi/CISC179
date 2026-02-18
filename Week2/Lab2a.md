@@ -37,7 +37,7 @@ When any of the ***objects** have the '\n' new line escape sequence, the buffer 
 
 ## What to Submit
 1. Python File(s): [Python File](Printing.py)
-2. Drawio Flowchart: Draw.io Flowchart
+2. Drawio Flowchart: [Draw.io Flowchart](Lab_2a_flowchart.drawio)
 3. Flowchart as Image: Draw.io Image
 4. Challenges:
     1. Trying to understand something like print() has so much versitility.
