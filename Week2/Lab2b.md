@@ -149,3 +149,15 @@ type("False") # 7
 |     6    |   ✔️   |    bool   |      bool     |
 |     7    |   ✔️   |    str    |      str      |
 
+# 3. Operator Precedence
+
+Use Exponent (Right --> Left), (Left --> Right from now on) Unary, Multiplication, Division, Integer Division, Modulus, Addition, Subtraction
+
+## Answers
+
+1. Add exponent with a negative power (unary)
+
+```
+12 ** +2 = 144
+
+```
