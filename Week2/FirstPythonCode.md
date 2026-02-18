@@ -32,7 +32,8 @@ Without, the o/p will be: 127.0.0.1 because I think sep="." means the values are
 1. A situation where `flush=True` would work is when, we are debugging a program. It can help find bugs or dsign flaws.
 2. A situation where `flush=False` would work is when we just want to get the output after all the process. calculations are done.
 
-### 1e: 
+### 1e: Flushingwhen flush=False
+When any of the ***objects** have the '\n' new line escape sequence, the buffer will 
 
 ## What to Submit
 1. Python File(s): [Python File](Printing.py)
