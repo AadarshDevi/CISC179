@@ -33,16 +33,16 @@ True # 6
 HelloWorld # 7
 blablaba # 8
 ```
-9.
 ```
+
+Question 9:
+
 2 * 3 ** 3
 = 2 * (3 ** 3)
 = 2 * 9
 = 512
 
 Answer: 512
-```
 
-10.
-```
+Question 10:
 ```
