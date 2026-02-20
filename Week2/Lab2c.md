@@ -60,10 +60,10 @@ dogdogdogdog
 
 ## Troubleshooting
 Questions:
-1. `hello = "hello"`: 
-2. `_var = 100`: 
+1. `hello = "hello"`: There is no problem found
+2. `_var = 100`: There is no problem found
 3. `!var_1 = 200`: starts with an "!"
-4. `print = "print me"`: print is a builtin python method
+4. `print = "print me"`: There is no problem found
 5. `False = 0`: The name of the variable is a python keyword
 
 ## What to Submit
