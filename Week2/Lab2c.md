@@ -58,6 +58,14 @@ the dog chases the cat
 dogdogdogdog
 ```
 
+## Troubleshooting
+Questions:
+1. `hello = "hello"`: 
+2. `_var = 100`: 
+3. `!var_1 = 200`: starts with an "!"
+4. `print = "print me"`: print is a builtin python method
+5. `False = 0`: The name of the variable is a python keyword
+
 ## What to Submit
 1. Python File(s): [Python File](Printing.py)
 2. Drawio Flowchart: [Draw.io Flowchart](Lab_2a_flowchart.drawio)
