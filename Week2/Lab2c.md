@@ -12,8 +12,8 @@ var1 = 100
 ```
 | Code | Memeory Address |
 |:------:|:---------:|
-| `var1 = 20` | 0x7ffa2d8f**_76d8_** |
-| `var1 = 100` | 0x7ffa2d8f**_80d8_** |
+| `var1 = 20` | 0x7ffa2d8f **_76d8_** |
+| `var1 = 100` | 0x7ffa2d8f **_80d8_** |
 
 
 ## What to Submit
