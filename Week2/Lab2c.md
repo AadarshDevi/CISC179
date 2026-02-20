@@ -15,6 +15,19 @@ var1 = 100
 | `var1 = 20` | 0x7ffa2d8f76d8 |
 | `var1 = 100` | 0x7ffa2d8f80d8 |
 
+There are 2 memeory addresses because there are 2 different distainct values.
+
+## Memory Map
+```python
+str1 = "Hello"
+str2 = "World"
+
+print(hex(id(str1[0])), hex(id(str2[0])), sep="\t\t")
+print(hex(id(str1[1])), hex(id(str2[1])), sep="\t\t")
+print(hex(id(str1[2])), hex(id(str2[2])), sep="\t\t")
+print(hex(id(str1[3])), hex(id(str2[3])), sep="\t\t")
+print(hex(id(str1[4])), hex(id(str2[4])), sep="\t\t")
+```
 
 ## What to Submit
 1. Python File(s): [Python File](Printing.py)
