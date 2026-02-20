@@ -40,7 +40,6 @@ print(hex(id(str1[4])), hex(id(str2[4])), sep="\t\t")
 | r | 0x7ffa2d907c28 |
 | l | 0x7ffa2d907b08 |
 | d | 0x7ffa2d907988 |
-| r | 0x7ffa2d8f80d8 |
 
 
 ## What to Submit
