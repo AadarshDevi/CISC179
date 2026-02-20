@@ -8,8 +8,6 @@
 ## Variable Memeory Usage
 ```python
 var1 = 20
-# o/p: 0x7ffa2d8f76d8
-
 var1 = 100
 ```
 | Code | Memeory Address |
