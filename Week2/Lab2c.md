@@ -28,6 +28,20 @@ print(hex(id(str1[2])), hex(id(str2[2])), sep="\t\t")
 print(hex(id(str1[3])), hex(id(str2[3])), sep="\t\t")
 print(hex(id(str1[4])), hex(id(str2[4])), sep="\t\t")
 ```
+| Letter | Memeory Address |
+|:------:|:---------:|
+| H | 0x7ffa2d907448 |
+| e | 0x7ffa2d9079b8 |
+| l | 0x7ffa2d907b08 |
+| l | 0x7ffa2d907b08 |
+| o | 0x7ffa2d907b98 |
+| W | 0x7ffa2d907718 |
+| o | 0x7ffa2d907b98 |
+| r | 0x7ffa2d907c28 |
+| l | 0x7ffa2d907b08 |
+| d | 0x7ffa2d907988 |
+| r | 0x7ffa2d8f80d8 |
+
 
 ## What to Submit
 1. Python File(s): [Python File](Printing.py)
