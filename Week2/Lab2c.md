@@ -41,6 +41,22 @@ print(hex(id(str1[4])), hex(id(str2[4])), sep="\t\t")
 | l | 0x7ffa2d907b08 |
 | d | 0x7ffa2d907988 |
 
+## Problem-solving
+No python code run.
+```python
+x: str = "dog"
+y: str = "cat"
+
+print(x + y)
+print("the " + x + " chases the " + y)
+print(x * 4)
+```
+Output:
+```
+dogcat
+the dog chases the cat
+dogdogdogdog
+```
 
 ## What to Submit
 1. Python File(s): [Python File](Printing.py)
