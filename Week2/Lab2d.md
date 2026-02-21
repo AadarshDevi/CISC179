@@ -41,6 +41,13 @@ C. Shortest distance between 2 cars
   print("Shortest distance between Car A and Car B is", shortestDistance, "miles.")
   ```
 
+## Troubleshooting
+a. first looks fine. hello is a identifier with value "hello"
+b. variable can start with underscore. I tried it when i was programming in python for a project.
+c. ERROR: cannot start with a special character, "!" other than underscore
+d. variable works. print is not a python keyword, so it can be used.
+e. ERROR: "False" is a python keyword and cannot be used as an identifier.
 
 ## Challenges
-1.
+1. Troubleshooting: some of the answers looked fine, no problem. I was skeptical, but i coudnt find anything wrong for some of them.
+2. User Input: C: trying to figure out how to do sqrt(). ans: power with value 0.5 == 1/2
