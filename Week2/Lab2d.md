@@ -25,7 +25,21 @@ B.
   
   print("Interest is", interest)
   ```
-
+C.
+  ```python
+  x: float = float(input("Average Speed of Car A (mph): ")) # Speed of car a
+  y: float = float(input("Average Speed of Car B (mph): ")) # Speed of car b
+  
+  carATimeHrs: float = float(input("Time Car A left center (hrs): "))
+  carATimeMin: float = float(input("Time Car A left center (min): "))
+  
+  carBTimeHrs: float = float(input("Time Car B left center (hrs): "))
+  carBTimeMin: float = float(input("Time Car B left center (min): "))
+  
+  # Pythagoras Theorem
+  shortestDistance: float = ((carATimeHrs + (carATimeMin / 60.0)) ** 2 + (carBTimeHrs + (carBTimeMin / 60.0)) ** 2) ** 0.5
+  print("Shortest distance between Car A and Car B is", shortestDistance, "miles.")
+  ```
 
 
 ## Challenges
