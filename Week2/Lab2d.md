@@ -6,13 +6,13 @@
 - Assignment: Lab 2d
 
 ## User Input
-A.
+A. Convertor: kg - lb
   ```python
   weightKg: float = float(input("Enter your weight (kg): "))
   weightLb: float = weightKg * 2.2;
   print("Your weight in lb is", weightLb)
   ```
-B.
+B. Calculating interest
   ```python
   netBalance: float = float(input("Enter Balance on Bill: ")) # balance shown on bill
   payment: float = float(input("Enter Payment paid: ")) # payment made
@@ -25,7 +25,7 @@ B.
   
   print("Interest is", interest)
   ```
-C.
+C. Shortest distance between 2 cars
   ```python
   x: float = float(input("Average Speed of Car A (mph): ")) # Speed of car a
   y: float = float(input("Average Speed of Car B (mph): ")) # Speed of car b
