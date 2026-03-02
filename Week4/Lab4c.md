@@ -262,6 +262,8 @@ So to fix this we will convert `**c` to `*c`. `*c` will take in the other argume
 (3, 4, 5, 6)
 ```
 
+When we look at `my_func(1,2,3,4,5,6)` PyCharm ot shows like: `my_func(a:1, b:2, *c:3,4,5,6)`. This shows we have 2 ints and a list.
+
 2. Using the following code, x should print 100 but it prints 10, why?
 
 Below is the given code.
