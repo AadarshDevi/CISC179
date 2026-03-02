@@ -161,6 +161,20 @@ word: "sunda"		freq: 1
 word: "islands"		freq: 1
 ```
 
+## Question 2: Troubleshooting
+1. Change the content of `d_copy` and make sure the content does not affect the `d_orig` dictionary. Verify using the code.
+```python
+d_orig = {123:"Coconut"}
+d_copy = dict(d_orig)
+d_copy.update({123: "Watermelon"})
+print(d_orig)
+print(d_copy)
+```
+Output:
+```
+{123: 'Coconut'} # d_orig
+{123: 'Watermelon'} # d_copy
+```
 
 # Challenges
 1. Writing the frequency of the numbers was hard. I was struggling to get a good algorithm.
