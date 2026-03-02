@@ -248,6 +248,20 @@ def my_func(a,b,**c):
 my_func(1,2,3,4,5,6)
 ```
 
+Here in the function `my_func(a,b,**c)` we have 2 values, ints and a list based on the arguments. By looking t the params, we are using 2 ints, 1 and 2. but the argumenst 3 - 6 cannot be used because `**c` is a dictionary. so when we run the code, we get an Error.
+```
+Traceback (most recent call last):
+  File "D:\College\Miramar Community College\Classes\CISC 179 - Introduction to Python Programming\CISC179_Labs\lab4\Lab4c_Functions.py", line 197, in <module>
+    my_func(1,2,3,4,5,6)
+    ~~~~~~~^^^^^^^^^^^^^
+TypeError: my_func() takes 2 positional arguments but 6 were given
+```
+
+So to fix this we will convert `**c` to `*c`. `*c` will take in the other arguments and make them into a list. So now, when we try running the code, we have:
+```
+(3, 4, 5, 6)
+```
+
 2. Using the following code, x should print 100 but it prints 10, why?
 
 Below is the given code.
