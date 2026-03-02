@@ -6,6 +6,7 @@
 - Assignment: Lab 4a
 
 ## Q/A
+### Question 1
 1. Take five inputs from an user and save it in a tuple called `my_tuple`
 ```python
 userNum1: int = int(input("Enter number 1: "))
@@ -19,12 +20,27 @@ my_tuple = (userNum1, userNum2, userNum3, userNum4, userNum5) # type : tuple[int
 print(userNum1, userNum2, userNum3, userNum4, userNum5, sep="\t")
 print(my_tuple)
 ```
+Output
+```
+Enter number 1: 7
+Enter number 2: 38
+Enter number 3: 23
+Enter number 4: 89
+Enter number 5: 34
+7	38	23	89	34
+(7, 38, 23, 89, 34)
+```
 
 2. How do you assign a single element in a tuple?
 ```python
 userInputNum: int = int(input("Enter a number: "))
 singleTuple: tuple[int] = (userInputNum,)
 print(singleTuple)
+```
+Output
+```
+Enter a number: 27
+(27,)
 ```
 
 3. `my_tuple = (1,2,3,4,3,2,1,2,3,5,4,3,2,1)` Count the repeated integers and print the result on the console.
@@ -56,12 +72,28 @@ for num in numbers:
     frequency.append(freq)
     print("num", num, "\t- freq:", freq)
     pass
-
+```
+Output
+```
+(1, 2, 3, 4, 3, 2, 1, 2, 3, 5, 4, 3, 2, 1, 1, 2, 3, 4, 3, 2, 1, 2, 3, 5, 4, 3, 2, 1)
 ```
 
-4. 
+4. `my_tuple = my_tuple + my_tuple`
+```python
+my_tuple = (1,2,3,4,3,2,1,2,3,5,4,3,2,1)
+my_tuple = my_tuple + my_tuple
+print(my_tuple)
+```
+Output
+```
+(1, 2, 3, 4, 3, 2, 1, 2, 3, 5, 4, 3, 2, 1, 1, 2, 3, 4, 3, 2, 1, 2, 3, 5, 4, 3, 2, 1)
+```
 
-
-
-
+5.
+```python
+```
+Output
+```
+(1, 2, 3, 4, 3, 2, 1, 2, 3, 5, 4, 3, 2, 1, 1, 2, 3, 4, 3, 2, 1, 2, 3, 5, 4, 3, 2, 1)
+```
 
