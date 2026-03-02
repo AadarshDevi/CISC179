@@ -11,14 +11,41 @@
 
 Code:
 ```python
+def conversion(_unit: str, _value: float) -> float:
+    # kpl -> mpg
+    if units.lower() == "kpl":
+        return  _value * (47.0 / 20.0)
+
+    # mpg -> kpl
+    else:
+        return  _value * (20.0 / 47.0)
+
+
+def validInput(uncheckedValue: str) -> bool:
+    if not uncheckedValue.replace(".", "").isdigit():
+        return False
+    return True
+
+
+def getInputList(unsplitValues: str) -> list:
+    splitValues = unsplitValues.split(",")
+    for valueStr in splitValues:
+        valueStr = valueStr.strip()
+    return splitValues
+
+
+def convert(units, convertedUnit, unconvertedValue):
+    floatValue: float = float(unconvertedValue)
+    convertedValue: float = conversion(units, floatValue)
+    print(floatValue, units, "is", "%.3f" % convertedValue, convertedUnit)
 
 correctUnits: bool = False
 units: str = ""
 
 while not correctUnits:
-    _units = input("Conversion > From (kpl/mpg): ")
-    if _units.lower() == "kpl" or _units.lower() == "mpg":
-        units = _units
+    rawUnits = input("Conversion > From (kpl/mpg): ")
+    if rawUnits.lower() == "kpl" or rawUnits.lower() == "mpg":
+        units = rawUnits
         correctUnits = True
     else:
         print("Wrong unit. Enter valid units: kpl, mpg")
@@ -32,55 +59,62 @@ else:
 
 print("Converting from", units, "to", convertedUnit)
 
-value: float = float(input("Enter " + units + ": "))
-convertedValue: float = 0.0
+print()
+value: str = input("Enter " + units + ": ")
+values: list = []
+if "," in value:
+    values = getInputList(value)
+else:
+    if not validInput(value):
+        quit()
+print()
 
-# kpl -> mpg
-if units.lower() == "kpl":
-    convertedValue = value * (47.0 / 20.0)
-else: # mpg -> kpl
-    convertedValue = value * (20.0 / 47.0)
+if len(values) <= 1:
+    floatValue: float = float(value)
+    convertedValue: float = conversion(units, floatValue)
+    print(floatValue, units, "is", "%.3f" % convertedValue, convertedUnit)
+    quit()
 
-print(value, units, "is", "%.3f" % convertedValue, convertedUnit)
+
+for unconvertedValue in values:
+    unconvertedValue = unconvertedValue.replace(" ", "")
+    print("value:", "\""+unconvertedValue+"\"")
+    if validInput(unconvertedValue):
+        convertedValue: float = conversion(units, float(unconvertedValue))
+        print(unconvertedValue, units, "is", "%.3f" % convertedValue, convertedUnit)
+    else:
+        print("Wrong value. It has to be a float or int. value received:", unconvertedValue)
+    print()
 ```
 Output 1:
 ```
-Conversion > From (kpl/mpg): rtx
+Conversion > From (kpl/mpg): kpo
 Wrong unit. Enter valid units: kpl, mpg
 Conversion > From (kpl/mpg): kpl
 Converting from kpl to mpg
 
-Enter kpl: 12.34, 45,56, 99.23
-"12.34"
-"45"
-"56"
-"99.23"
+Enter kpl: 12.45
 
-value: "12.34"
-validate: 1234
-12.34 kpl is 28.999 mpg
-
-value: "45"
-validate: 45
-45 kpl is 105.750 mpg
-
-value: "56"
-validate: 56
-56 kpl is 131.600 mpg
-
-value: "99.23"
-validate: 9923
-99.23 kpl is 233.191 mpg
+12.45 kpl is 29.258 mpg
 ```
 Output 2:
 ```
 Conversion > From (kpl/mpg): kpl
 Converting from kpl to mpg
 
-Enter kpl: 57.62
-validate: 5762
+Enter kpl: 12.45, 56, 67, 12.74
 
-57.62 kpl is 135.407 mpg
+value: "12.45"
+12.45 kpl is 29.258 mpg
+
+value: "56"
+56 kpl is 131.600 mpg
+
+value: "67"
+67 kpl is 157.450 mpg
+
+value: "12.74"
+12.74 kpl is 29.939 mpg
 ```
 
 
