@@ -152,4 +152,5 @@ my_y = (200,300,400,500)
 
 # Challenges
 1. Writing the frequency of the numbers was hard. I was struggling to get a good algorithm.
-2. the `*` and `**` were okay, but i need to read and understand it better. 
+2. the `*` and `**` were okay, but i need to read and understand it better.
+3. The exam on tuples, dict, functions, loops was hard. I needed more practice.
