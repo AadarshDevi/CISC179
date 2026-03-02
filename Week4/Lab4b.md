@@ -92,9 +92,72 @@ The tiger (Panthera tigris) is a large cat and a member of the genus Panthera na
 ```
 Code:
 ```python
-# code
-```
+sentence: str = "The tiger (Panthera tigris) is a large cat and a member of the genus Panthera native to Asia. It has a powerful, muscular body with a large head and paws, a long tail and orange fur with black, mostly vertical stripes. It is traditionally classified into nine recent subspecies, though some recognise only two subspecies, mainland Asian tigers and the island tigers of the Sunda Islands."
+words: list[str] = sentence.split(" ")
+frequency: dict = {}
 
+for word in words:
+    word = word.lower().replace(".", "").replace("(", "").replace(")", "").replace(",", "")
+    # print(word)
+    if word not in frequency:
+        frequency[word] = 1
+    else:
+        frequency[word] += 1
+
+for key, value in frequency.items():
+    print("word: \"",key, "\"\t\tfreq: ", value, sep="")
+```
+Output:
+```
+word: "the"		freq: 4
+word: "tiger"		freq: 1
+word: "panthera"		freq: 2
+word: "tigris"		freq: 1
+word: "is"		freq: 2
+word: "a"		freq: 5
+word: "large"		freq: 2
+word: "cat"		freq: 1
+word: "and"		freq: 4
+word: "member"		freq: 1
+word: "of"		freq: 2
+word: "genus"		freq: 1
+word: "native"		freq: 1
+word: "to"		freq: 1
+word: "asia"		freq: 1
+word: "it"		freq: 2
+word: "has"		freq: 1
+word: "powerful"		freq: 1
+word: "muscular"		freq: 1
+word: "body"		freq: 1
+word: "with"		freq: 2
+word: "head"		freq: 1
+word: "paws"		freq: 1
+word: "long"		freq: 1
+word: "tail"		freq: 1
+word: "orange"		freq: 1
+word: "fur"		freq: 1
+word: "black"		freq: 1
+word: "mostly"		freq: 1
+word: "vertical"		freq: 1
+word: "stripes"		freq: 1
+word: "traditionally"		freq: 1
+word: "classified"		freq: 1
+word: "into"		freq: 1
+word: "nine"		freq: 1
+word: "recent"		freq: 1
+word: "subspecies"		freq: 2
+word: "though"		freq: 1
+word: "some"		freq: 1
+word: "recognise"		freq: 1
+word: "only"		freq: 1
+word: "two"		freq: 1
+word: "mainland"		freq: 1
+word: "asian"		freq: 1
+word: "tigers"		freq: 2
+word: "island"		freq: 1
+word: "sunda"		freq: 1
+word: "islands"		freq: 1
+```
 
 
 # Challenges
