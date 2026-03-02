@@ -209,6 +209,5 @@ TypeError: cannot use 'list' as a dict key (unhashable type: 'list')
 
 
 # Challenges
-1. Writing the frequency of the numbers was hard. I was struggling to get a good algorithm.
-2. the `*` and `**` were okay, but i need to read and understand it better.
-3. The exam on tuples, dict, functions, loops was hard. I needed more practice.
+1. When writing Q1c, I was having a hard time understanding the question because I was getting confused.
+2. So far, they have been a bit challenging. But I have somehow able to figure out the solution.
