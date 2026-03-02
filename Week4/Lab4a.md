@@ -29,6 +29,34 @@ print(singleTuple)
 
 3. `my_tuple = (1,2,3,4,3,2,1,2,3,5,4,3,2,1)` Count the repeated integers and print the result on the console.
 ```python
+my_tuple = (1,2,3,4,3,2,1,2,3,5,4,3,2,1)
+print("tuple:",my_tuple)
+
+# Contains a list of numbers
+numbers: list[int] = [my_tuple[0]]
+
+# List of unique numbers
+for number in my_tuple:
+    exists: bool = False
+    for num in numbers:
+        if number == num:
+            exists = True
+            break
+    if not exists:
+        numbers.append(number)
+print("numbers:",numbers, end="\n\n")
+
+# Frequency of the numbers (Really slow)
+frequency = []
+for num in numbers:
+    freq: int = 0
+    for number in my_tuple:
+        if number == num:
+            freq += 1
+    frequency.append(freq)
+    print("num", num, "\t- freq:", freq)
+    pass
+
 ```
 
 4. 
