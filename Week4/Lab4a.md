@@ -44,6 +44,8 @@ Enter a number: 27
 ```
 
 3. `my_tuple = (1,2,3,4,3,2,1,2,3,5,4,3,2,1)` Count the repeated integers and print the result on the console.
+
+I tried my best to write the code. I had a hard time writing it.
 ```python
 my_tuple = (1,2,3,4,3,2,1,2,3,5,4,3,2,1)
 print("tuple:",my_tuple)
@@ -75,7 +77,14 @@ for num in numbers:
 ```
 Output
 ```
-(1, 2, 3, 4, 3, 2, 1, 2, 3, 5, 4, 3, 2, 1, 1, 2, 3, 4, 3, 2, 1, 2, 3, 5, 4, 3, 2, 1)
+tuple: (1, 2, 3, 4, 3, 2, 1, 2, 3, 5, 4, 3, 2, 1)
+numbers: [1, 2, 3, 4, 5]
+
+num 1 	- freq: 3
+num 2 	- freq: 4
+num 3 	- freq: 4
+num 4 	- freq: 2
+num 5 	- freq: 1
 ```
 
 4. `my_tuple = my_tuple + my_tuple`
