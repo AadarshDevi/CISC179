@@ -188,6 +188,24 @@ Output:
 2161683803968
 ```
 
+3. Write a code that generates the following error and explain why there is such an error.
+```python
+errorCreator: dict = {
+    ["element1", "element2"]: "Animal"
+}
+```
+Error Output:
+```
+Traceback (most recent call last):
+  File "D:\College\Miramar Community College\Classes\CISC 179 - Introduction to Python Programming\CISC179_Labs\lab4\Lab4b_Dict.py", line 162, in <module>
+    errorCreator: dict = {
+                         ^
+        ["element1", "element2"]: "Animal"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    }
+    ^
+TypeError: cannot use 'list' as a dict key (unhashable type: 'list')
+```
 
 
 # Challenges
