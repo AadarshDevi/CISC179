@@ -98,11 +98,45 @@ Output
 ```
 
 ## Question 2: Packing and unpacking tuples
-1.
+1. What is the data type of each variable?
+```python
+(one, two, three, four) =  (1, 2, 3, 4)
+```
+Answer
+```
+int
+int
+int
+int
+```
+
+2. What will be the result of `a, *b, c = x`?
+```python
+x = (1, 2, 3, 4)
+a, *b, c = x
+print(a)
+print(b)
+print(c)
+```
+Output
+```
+1
+[2, 3]
+4
+```
+
+2. a
 ```python
 ```
 Output
 ```
-(1, 2, 3, 4, 3, 2, 1, 2, 3, 5, 4, 3, 2, 1, 1, 2, 3, 4, 3, 2, 1, 2, 3, 5, 4, 3, 2, 1)
 ```
+
+2. a
+```python
+```
+Output
+```
+```
+
 
