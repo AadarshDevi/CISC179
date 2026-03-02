@@ -203,6 +203,27 @@ newList: ['Tomato', 'Apple', 'Onion', 'Watermelon', 'Tea Leaf', 'Pineapple']
 
 By creating a new list from the old list, we are now changing the new list and not accidentally changing the old list.
 
+4. Assuming that x = 5, what will be the value of x after funct_1() below executes? After funct_2() executes?
+
+The python code would look like this, so we can know what the actual ans is after theorizing.
+```python
+x = 5
+def funct_1():
+  x=3
+
+def funct_2():
+  global x
+  x=2
+
+funct_1()
+print(x)
+funct_2()
+print(x)
+```
+
+First we have `x = 5` which means x has a value 5. next we are calling `func_1()`. `func_1()` has a local variable `x` but it is not the same `x` that is above the function header. so when this is run, x will remain to have a value of 5.
+
+
 # Challenges
 1. Writing algorithms for Q 1a. I had a hard time trying to figure out string methods.
 2. 
