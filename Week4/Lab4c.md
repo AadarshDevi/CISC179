@@ -117,6 +117,91 @@ value: "12.74"
 12.74 kpl is 29.939 mpg
 ```
 
+2. How would you write a function that could take any number of unnamed arguments and print their values out in reverse order?
+```python
+def reverse(inputs: list) -> list:
+    newReversedList: list = []
+    for i in range(len(inputs), 0, -1):
+        newReversedList.append(inputs[i - 1])
+    return newReversedList
+
+running: bool = True
+userInputs: list = []
+
+while running:
+    userInput: str = input("Please enter a word (type \"n\" to exit): ")
+    if userInput == "n":
+        running = False
+    else:
+        userInputs.append(userInput)
+
+if len(userInputs) > 1:
+    print("Original:", userInputs)
+
+    reversedList: list = reverse(userInputs)
+    print("Reversed:", reversedList)
+```
+Output:
+```
+Please enter a word (type "n" to exit): dog
+Please enter a word (type "n" to exit): vcat
+Please enter a word (type "n" to exit): vegas
+Please enter a word (type "n" to exit): cool cat
+Please enter a word (type "n" to exit): fluffy
+Please enter a word (type "n" to exit): parrot
+Please enter a word (type "n" to exit): fish
+Please enter a word (type "n" to exit): tortois
+Please enter a word (type "n" to exit): turtle
+Please enter a word (type "n" to exit): n
+Original: ['dog', 'vcat', 'vegas', 'cool cat', 'fluffy', 'parrot', 'fish', 'tortois', 'turtle']
+Reversed: ['turtle', 'tortois', 'fish', 'parrot', 'fluffy', 'cool cat', 'vegas', 'vcat', 'dog']
+```
+
+3. What would be the result of changing a list or dictionary that was passed into a function as a parameter value? Which operations would be likely to create changes that would be visible outside the function? What steps might you take to minimize that risk?
+
+When a list or dict is used as a param, it is sending a referenced of the object. So when the function does any changes, it affects the list/dict that was the input.
+
+```python
+alist: list = ["Tomato", "Orange", "Apple", "Onion", "Watermelon", "Tea Leaf"]
+print("unedited:",alist)
+
+def changeList(inputList: list):
+    inputList.remove("Orange")
+    inputList.append("Pineapple")
+
+changeList(alist)
+print("edited:",alist)
+```
+Output:
+```
+unedited: ['Tomato', 'Orange', 'Apple', 'Onion', 'Watermelon', 'Tea Leaf']
+edited: ['Tomato', 'Apple', 'Onion', 'Watermelon', 'Tea Leaf', 'Pineapple']
+```
+
+To fix this problem, we need to create a new list/dict based on the param. Input is a list so the new object will be a list.
+
+```python
+alist: list = ["Tomato", "Orange", "Apple", "Onion", "Watermelon", "Tea Leaf"]
+print("alist:",alist)
+
+def unchangeableList(inputList: list) -> list:
+    outputList: list = list(inputList)
+    outputList.remove("Orange")
+    outputList.append("Pineapple")
+    return outputList
+
+newList: list = unchangeableList(alist)
+print("after alist:",alist)
+print("newList:",newList)
+```
+Output:
+```
+alist: ['Tomato', 'Orange', 'Apple', 'Onion', 'Watermelon', 'Tea Leaf']
+after alist: ['Tomato', 'Orange', 'Apple', 'Onion', 'Watermelon', 'Tea Leaf']
+newList: ['Tomato', 'Apple', 'Onion', 'Watermelon', 'Tea Leaf', 'Pineapple']
+```
+
+By creating a new list from the old list, we are now changing the new list and not accidentally changing the param list.
 
 # Challenges
 1. 
