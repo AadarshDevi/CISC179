@@ -201,7 +201,8 @@ after alist: ['Tomato', 'Orange', 'Apple', 'Onion', 'Watermelon', 'Tea Leaf']
 newList: ['Tomato', 'Apple', 'Onion', 'Watermelon', 'Tea Leaf', 'Pineapple']
 ```
 
-By creating a new list from the old list, we are now changing the new list and not accidentally changing the param list.
+By creating a new list from the old list, we are now changing the new list and not accidentally changing the old list.
 
 # Challenges
-1. 
+1. Writing algorithms for Q 1a. I had a hard time trying to figure out string methods.
+2. 
