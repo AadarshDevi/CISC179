@@ -236,6 +236,33 @@ x3: 2
 
 By running the code, we can see that `func_1()` did not change `x` and `func_2()` changed `x` from 5 to 2.
 
+## Question 2: Troubleshooting
+
+1. Correct the following code. There might be more than one correct answers. Explain your reasoning.
+
+Below is the given code.
+```python
+def my_func(a,b,**c):
+  print(c)
+
+my_func(1,2,3,4,5,6)
+```
+
+2. Using the following code, x should print 100 but it prints 10, why?
+
+Below is the given code.
+```python
+def my_func_global():
+  x = 100
+
+global x
+x = 10
+my_func_global()
+print(x)
+```
+
+
+
 # Challenges
 1. Writing algorithms for Q 1a. I had a hard time trying to figure out string methods.
 2. 
