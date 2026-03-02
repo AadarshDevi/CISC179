@@ -5,8 +5,7 @@
 - Submission Date: Mar 1, 2026
 - Assignment: Lab 4a
 
-## Q/A
-### Question 1: Exercising tuples
+## Question 1: Exercising tuples
 1. Take five inputs from an user and save it in a tuple called `my_tuple`
 ```python
 userNum1: int = int(input("Enter number 1: "))
@@ -98,7 +97,7 @@ Output
 (1, 2, 3, 4, 3, 2, 1, 2, 3, 5, 4, 3, 2, 1, 1, 2, 3, 4, 3, 2, 1, 2, 3, 5, 4, 3, 2, 1)
 ```
 
-### Question 2: Packing and unpacking tuples
+## Question 2: Packing and unpacking tuples
 1.
 ```python
 ```
