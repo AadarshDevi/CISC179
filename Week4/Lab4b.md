@@ -176,6 +176,20 @@ Output:
 {123: 'Watermelon'} # d_copy
 ```
 
+2. If it changes the content of the original dictionary, then propose how can you solve this problem
+I solved the situation. i created a duplicate with `dict()` and it creates a new object. Using id() will tell that they are differnt objects.
+```python
+print(id(d_orig))
+print(id(d_copy))
+```
+Output:
+```
+2161683295424
+2161683803968
+```
+
+
+
 # Challenges
 1. Writing the frequency of the numbers was hard. I was struggling to get a good algorithm.
 2. the `*` and `**` were okay, but i need to read and understand it better.
