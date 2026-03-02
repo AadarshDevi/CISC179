@@ -208,6 +208,8 @@ By creating a new list from the old list, we are now changing the new list and n
 The python code would look like this, so we can know what the actual ans is after theorizing.
 ```python
 x = 5
+print("x1:",x)
+
 def funct_1():
   x=3
 
@@ -216,13 +218,23 @@ def funct_2():
   x=2
 
 funct_1()
-print(x)
+print("x2:",x)
 funct_2()
-print(x)
+print("x3:",x)
 ```
 
 First we have `x = 5` which means x has a value 5. next we are calling `func_1()`. `func_1()` has a local variable `x` but it is not the same `x` that is above the function header. so when this is run, x will remain to have a value of 5.
 
+After running `func_1()`, we run `func_2()`. when we run, we have `global x`. `global x` here is refering to `x = 5` so when we goto the next statement `x = 2`, we are changing the value of x from 5 to 2. Now to test the theory.
+
+Output:
+```
+x1: 5
+x2: 5
+x3: 2
+```
+
+By running the code, we can see that `func_1()` did not change `x` and `func_2()` changed `x` from 5 to 2.
 
 # Challenges
 1. Writing algorithms for Q 1a. I had a hard time trying to figure out string methods.
