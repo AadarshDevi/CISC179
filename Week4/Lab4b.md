@@ -26,8 +26,21 @@ moviesAndCompanies = {
 
 2. Take inputs from a user and add them in a dictionary called `my_user_dict`
 ```python
+running: bool = True
+studentIdAndName: dict = {}
 
+while running:
+    ssn: str = input("SSN: ")
+    name: str = input("Name: ")
+    ans: str = input("Do you want to continue (Y/N) ")
+    studentIdAndName.update({ssn: name})
+    if ans.upper().startswith("N"):
+        running = False
+
+print(studentIdAndName)
 ```
+
+3. Based on the given tuple, create a code which checks for valid key & value pairs, and check for key duplication. The code should provide assistance to a user to correct the error. For key duplication, ask user to change the key. Restrictions: Do not use functions and/or exceptions in this exercise.
 
 
 # Challenges
