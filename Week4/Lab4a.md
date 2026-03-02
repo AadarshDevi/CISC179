@@ -125,7 +125,8 @@ Output
 4
 ```
 
-2. a
+## Question 3: Memory Management
+3. a
 ```python
 ```
 Output
