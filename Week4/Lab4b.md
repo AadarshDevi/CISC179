@@ -1,4 +1,4 @@
-# Lab 4a
+# Lab 4b: Dictionary
 
 ## Basic Info
 - Author: Aadarsh Devi
@@ -40,7 +40,12 @@ while running:
 print(studentIdAndName)
 ```
 
-3. Based on the given tuple, create a code which checks for valid key & value pairs, and check for key duplication. The code should provide assistance to a user to correct the error. For key duplication, ask user to change the key. Restrictions: Do not use functions and/or exceptions in this exercise.
+3. Based on the given tuple, create a code which checks for valid key & value pairs, and check for key duplication. The code should provide assistance to a user to correct the error. For key duplication, ask user to change the key.
+```python
+
+```
+
+
 
 
 # Challenges
