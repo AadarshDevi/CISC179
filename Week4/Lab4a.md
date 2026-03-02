@@ -126,18 +126,30 @@ Output
 ```
 
 ## Question 3: Memory Management
-3. a
 ```python
-```
-Output
-```
-```
-
-2. a
-```python
-```
-Output
-```
+my_x = [100,200,300,400]
+my_y = (200,300,400,500)
 ```
 
+For simplicity, let the memeory addresses start at 0.
+```
+my_x = [100,200,300,400]
 
+100 - 0 - New Address
+200 - 1 - New Address
+300 - 2 - New Address
+400 - 3 - New Address
+
+my_y = (200,300,400,500)
+
+200 - 1 - Reused Address
+300 - 2 - Reused Address
+400 - 3 - Reused Address
+500 - 4 - New Address
+```
+
+`my_x` creates 4 addresses and `my_y` creates 1 address and reuses 3 addresses from `my_x`.
+
+# Challenges
+1. Writing the frequency of the numbers was hard. I was struggling to get a good algorithm.
+2. the `*` and `**` were okay, but i need to read and understand it better. 
