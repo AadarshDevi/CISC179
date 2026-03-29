@@ -1,5 +1,7 @@
 # Honors Assignment 3: Career Exploration
 
+**_Note:_** I copied the job listing titles/name and some of the requirements directly (could not find a better way to write it).
+
 ## Job Listings
 
 | Job | Requirements/Skills Sought | My Current Skills |
