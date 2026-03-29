@@ -2,4 +2,6 @@
 
 ## Job Listings
 
-| Job |  |  |
+| Job | Requirements/Skills Sought | My Current Skills |
+|:-:|:-:|:-:|
+|  |  |  |
