@@ -21,3 +21,5 @@ Dec 	63
 A manager is planning an advertising campaign and needs to identify the stretch of consecutive months with the highest total sales. The goal is to target ads immediately before and after that peak run of months.
 
 Using the provided dataset of monthly sales, complete the following.
+
+## Approach
